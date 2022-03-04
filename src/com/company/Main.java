@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
         double[] sun = {12, -3, 8, 2, -54, 4, -7, 5, -3, 7, 1, -34, 9, -2, -9};
         boolean chair = false;
         double room = 0;
@@ -14,8 +13,6 @@ public class Main {
         ) {
             if (table < 0) {
                 chair = true;
-
-
             } else {
                 if (chair) {
                     room += table;
@@ -35,11 +32,7 @@ public class Main {
                 if (cicly[j] < min) {
                     min = cicly[j];
                     flower = j;
-
-
                 }
-
-
             }
             if (i != flower) {
                 double tree = cicly[i];
